@@ -168,7 +168,7 @@ on patient health information.
 
     st.success("Logistic Regression")
 
-    st.metric("Accuracy","72%")
+    st.metric("Accuracy","71.6%")
 
     st.markdown("---")
 

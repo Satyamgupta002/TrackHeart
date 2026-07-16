@@ -1,11 +1,11 @@
-# TrackHeart – AI Powered Heart Disease Risk Prediction
+## TrackHeart – AI Powered Heart Disease Risk Prediction
 
 An intelligent Machine Learning application that predicts the likelihood of heart disease from patient health information and generates an interactive health report.
 
 
 ---
 
-# Overview
+## Overview
 
 TrackHeart is an end-to-end Machine Learning project that combines data preprocessing, model training, probability estimation, and an interactive Streamlit dashboard to provide heart disease risk assessment.
 
@@ -19,7 +19,7 @@ Instead of simply predicting whether a patient is at risk, the application also:
 
 ---
 
-# Features
+## Features
 
 - End-to-End Machine Learning Pipeline
 - Automatic Data Cleaning
@@ -36,16 +36,16 @@ Instead of simply predicting whether a patient is at risk, the application also:
 
 ---
 
-# Tech Stack
+## Tech Stack
 
-## Machine Learning
+### Machine Learning
 
 - Scikit-Learn
 - Pandas
 - NumPy
 - Joblib
 
-## Frontend
+### Frontend
 
 - Streamlit
 - HTML
@@ -53,7 +53,7 @@ Instead of simply predicting whether a patient is at risk, the application also:
 - 
 ---
 
-# Machine Learning Pipeline
+## Machine Learning Pipeline
 
 Dataset
 
@@ -99,7 +99,7 @@ Interactive Streamlit Application
 
 ---
 
-# Input Features
+## Input Features
 
 - Country
 - Occupation
@@ -116,7 +116,7 @@ Interactive Streamlit Application
 
 ---
 
-# Output
+## Output
 
 - Heart Disease Risk
 - Prediction Probability
@@ -127,7 +127,7 @@ Interactive Streamlit Application
 
 ---
 
-# Installation
+## Installation
 
 Clone the repository
 
@@ -161,7 +161,7 @@ streamlit run app.py
 
 ---
 
-# Model Performance
+## Model Performance
 
 Current Model
 
@@ -178,7 +178,7 @@ Evaluation Metrics
 
 ---
 
-# Author
+## Author
 
 **Satyam Gupta** <br>
 B.Tech in Electronics and Communication Engineering <br>

@@ -50,7 +50,6 @@ Instead of simply predicting whether a patient is at risk, the application also:
 - Streamlit
 - HTML
 - CSS
-- 
 ---
 
 ## Machine Learning Pipeline

@@ -1,6 +1,6 @@
 streamlit
 pandas
 numpy
-scikit-learn==1.6.1
+scikit-learn
 joblib
-fpdf==1.7.2
+fpdf

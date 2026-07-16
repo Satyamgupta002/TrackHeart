@@ -162,18 +162,42 @@ streamlit run app.py
 
 ## Model Performance
 
-Current Model
+The model was evaluated on a held-out test dataset using standard classification metrics.
 
-- Logistic Regression with an accuracy of 72%
+| Metric | Score |
+|---------|-------|
+| Accuracy | **71.59%** |
+| Precision | **73.38%** |
+| Recall | **67.72%** |
+| F1 Score | **70.44%** |
 
-Evaluation Metrics
+### Confusion Matrix
 
-- Accuracy
-- Precision
-- Recall
-- F1 Score
-- Confusion Matrix
-- Classification Report
+```
+                Predicted
+               0          1
+Actual 0    5285       1719
+Actual 1    2258       4738
+```
+
+### Classification Report
+
+| Class | Precision | Recall | F1-Score | Support |
+|------|-----------:|--------:|---------:|--------:|
+| 0 | 0.70 | 0.75 | 0.73 | 7004 |
+| 1 | 0.73 | 0.68 | 0.70 | 6996 |
+| **Accuracy** | | | **0.72** | **14000** |
+| **Macro Avg** | **0.72** | **0.72** | **0.72** | **14000** |
+| **Weighted Avg** | **0.72** | **0.72** | **0.72** | **14000** |
+
+---
+
+### Performance Summary
+
+- Achieved **71.59% test accuracy** on unseen patient data.
+- Balanced **precision (73.38%)** and **recall (67.72%)** for reliable risk prediction.
+- Achieved an overall **F1-score of 70.44%**, indicating balanced classification performance.
+- Model outputs prediction probabilities to provide confidence along with binary classification.
 
 ---
 

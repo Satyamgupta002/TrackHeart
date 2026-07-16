@@ -10,7 +10,6 @@ from predict import predict_disease
 
 st.set_page_config(
     page_title="TrackHeart",
-    page_icon="❤️",
     layout="wide"
 )
 
@@ -216,7 +215,7 @@ left,right = st.columns(2)
 
 with left:
 
-    st.subheader("👤 Patient Information")
+    st.subheader("Patient Information")
 
     country = st.selectbox(
         "Country",
@@ -278,7 +277,7 @@ with left:
 
 with right:
 
-    st.subheader("🩺 Medical Information")
+    st.subheader("Medical Information")
 
     ap_hi = st.number_input(
         "Systolic Blood Pressure",
